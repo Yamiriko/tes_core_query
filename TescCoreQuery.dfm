@@ -4,7 +4,7 @@ object Form1: TForm1
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Tes Core Query'
-  ClientHeight = 212
+  ClientHeight = 297
   ClientWidth = 457
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -33,8 +33,35 @@ object Form1: TForm1
     Top = 175
     Width = 423
     Height = 25
-    Caption = 'Show Query'
+    Caption = 'Show Query Simpan'
     TabOrder = 1
     OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 16
+    Top = 206
+    Width = 423
+    Height = 25
+    Caption = 'Show Query Ubah'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 16
+    Top = 234
+    Width = 423
+    Height = 25
+    Caption = 'Show Query Hapus'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 16
+    Top = 265
+    Width = 423
+    Height = 25
+    Caption = 'Show Query Cari Data'
+    TabOrder = 4
+    OnClick = Button4Click
   end
 end
